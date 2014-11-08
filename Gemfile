@@ -32,8 +32,12 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.3.0'
 
 # Added gem paperclip
-#gem "paperclip", "~> 4.2"
-gem 'paperclip'
+gem "paperclip", "~> 4.2"
+gem "paperclip-dropbox", ">= 1.1.7"
+
+# Added gem figaro
+gem "figaro"
+
 
 group :production do
   gem 'pg'
