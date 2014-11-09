@@ -4,7 +4,17 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+
+# this line below is the default i comment it to test it
 Bundler.require(:default, Rails.env)
+
+=begin
+if Rails.respond_to? :env
+    Bundler.require(:default, Rails.env) if defined?(Bundler)
+else
+    Bundler.require(:default, RAILS_ENV) if defined?(Bundler)
+end=end
+
 
 module Bambooshop
   class Application < Rails::Application
