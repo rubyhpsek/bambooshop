@@ -39,6 +39,9 @@ gem "paperclip-dropbox", ">= 1.1.7"
 # Added gem figaro
 gem "figaro"
 
+# Added gem devise
+gem 'devise'
+
 
 group :production do
   gem 'pg'
