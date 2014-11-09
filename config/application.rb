@@ -8,12 +8,7 @@ require 'rails/all'
 # this line below is the default i comment it to test it
 Bundler.require(:default, Rails.env)
 
-=begin
-if Rails.respond_to? :env
-    Bundler.require(:default, Rails.env) if defined?(Bundler)
-else
-    Bundler.require(:default, RAILS_ENV) if defined?(Bundler)
-end=end
+
 
 
 module Bambooshop
@@ -29,5 +24,6 @@ module Bambooshop
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-  end
+  
+   end
 end
