@@ -59,9 +59,26 @@ body {
 
 
 .jumbotron {
+  margin-bottom: 0px;
   background-image: url('https://www.dropbox.com/s/ps9ynpcoru6yyrj/banner888.jpg?raw=1');
-  h1, h2 {
+  background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+      h1, h2 {
     font-family: guardian-egyptt, georgia, serif;
     
   }
 }
+
+
+// .jumbotron{
+  // height:371px
+// }
+
+
+// .jumbotron-main img {
+    // width: 100%;
+    // max-width: 600px;
+// }
